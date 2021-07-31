@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/efs0-cod3/firstChallenge)
 - Live Site URL: (https://efs0-cod3.github.io/firstChallenge/)
 
 ## My process
