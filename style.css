@@ -22,7 +22,7 @@ ul {
 /*****CLASS*****/
 .container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -94,6 +94,7 @@ ul {
 .sts {
     margin-bottom: 0;
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .sts-p {
@@ -106,7 +107,7 @@ ul {
 
 
 
-@media only screen and (max-width:1000px) {
+@media screen and (min-width:375px) {
     body ul {
 
         flex-direction: column;
