@@ -1,0 +1,181 @@
+/*****TAGS*****/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.938rem;
+    background-color: hsl(233, 47%, 7%);
+    font-family: Inter;
+}
+
+body ul {
+    display: flex;
+    list-style: none;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+/*****CLASS*****/
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    width: 69.313rem;
+    border-radius: 5px;
+}
+
+.card-content {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.c-image::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    position: absolute;
+    opacity: 100%;
+    mix-blend-mode: multiply;
+
+}
+
+.c-image {
+    display: flex;
+    width: 34.375rem;
+    height: auto;
+    position: relative;
+}
+
+.img-mobile {
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    width: 34.375rem;
+    height: auto;
+}
+
+.info {
+    line-height: 1.5;
+    margin-right: 3rem;
+    padding-left: 5.125rem;
+    padding-right: 2.6rem;
+    padding-top: 3.75rem;
+}
+
+.stats {
+    margin-top: 1.563rem;
+    padding-left: 0;
+    padding-right: 5.9rem;
+}
+
+/*****FONTS*****/
+
+.h-light {
+    color: hsl(277, 64%, 61%);
+}
+
+.main-p {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.sts {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.sts-p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: Lexend Deca;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 0.820rem;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+    body ul {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        line-height: 1;
+        margin-right: 0;
+        padding-top: 1rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .c-title {
+        margin-top: 1rem;
+    }
+
+    .stats {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card {
+        display: flex;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 5px;
+        height: auto;
+        width: 20.438rem;
+    }
+
+    .card-content {
+        flex-direction: column;
+    }
+
+    .c-image::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: hsl(277, 64%, 61%);
+        position: absolute;
+        opacity: 100%;
+        mix-blend-mode: multiply;
+    }
+
+    .c-image {
+        display: flex;
+        width: 20.438rem;
+        height: auto;
+        position: relative;
+    }
+
+    .img-mobile {
+        border-radius: 5px 5px 0 0;
+        display: flex;
+        width: 20.438rem;
+        height: auto;
+    }
+
+}
