@@ -50,4 +50,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Erick "efso" Felix](https://github.com/efs0-cod3)
 - Frontend Mentor - [@efs0-cod3](https://www.frontendmentor.io/profile/efs0-cod3)
-- Twitter - [@efs0_codeyourusername](https://www.twitter.com/efs0_code)
+- Twitter - [@efs0_code](https://www.twitter.com/efs0_code)
